@@ -1,13 +1,13 @@
 function generateMarkdown(data) {
   if (data.license === "MIT License") {
-    data.license = "[![License: MIT](https://img.shields.io/badge/license-MIT-green);
+    data.license = "[![License: MIT](https://img.shields.io/badge/license-MIT-green)";
   }
   if (data.license === "Apache") {
     data.license = "[![License](https://img.shields.io/badge/license-Apache-blue)";
   }
-}
 
-return '# Table of Contents
+
+return `# Table of Contents
 1. [Title](#Title)
 2. [Description](#Description)
 3. [Installation](#Installation)
@@ -16,18 +16,34 @@ return '# Table of Contents
 6. [Test](#Test)
 7. [Github](#Github)
 8. [Email](#Email)
-9. [License](#Licenes)
+9. [License](#License)
 
+# ${data.title}
 
-'
+# Description
+${data.Description}
 
+# Installation
+${data.Installation}
 
+# Usage
+${data.Usage}
 
-// TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
+# Contributions
+${data.Contributions}
 
+# Test
+${data.Test}
+
+# Github
+${data.Github}
+
+# Email
+${data.Email}
 `;
 }
+
+
+
 
 module.exports = generateMarkdown;
