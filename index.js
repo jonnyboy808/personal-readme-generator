@@ -44,9 +44,14 @@ const questions = [
         message:'What is your email address?',
     },
     {
-        type:
-        name:
-        message:
+        type:'list',
+        name:'license',
+        message:'What type of license should this project have?'
     },
- 
 ]
+
+function questionSet() {
+    inquirer.prompt(questions).then((data) => {
+        console.log(data)
+    })
+}
