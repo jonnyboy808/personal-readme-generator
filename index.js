@@ -22,12 +22,12 @@ const questions = [
     {
         type:'input',
         name:'usage',
-        message:'What are the uses for this app?'
+        message:'What are the uses for this app?',
     },
     {
         type:'input',
         name:'contributing',
-        message:'If there were any collaborators or contributors please enter them here.'
+        message:'If there were any collaborators or contributors please enter them here.',
     },
     {
         type:'input',
@@ -47,12 +47,16 @@ const questions = [
     {
         type:'list',
         name:'license',
-        message:'What type of license should this project have?'
+        message:'What type of license should this project have?',
+        choices:['MIT License', "Apache", "None"]
     },
 ]
 
 function questionSet() {
     inquirer.prompt(questions).then((data) => {
         console.log(data)
+        fs.writeFile('GeneratedREADME/GeneratedREADME.md', generatedMarkdown(data),(err) => err? console.error(err): console.log("Sucess"))
     })
 }
+
+questionSet();
