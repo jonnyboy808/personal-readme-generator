@@ -1,0 +1,23 @@
+{
+  "name": "personal-readme-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonnyboy808/personal-readme-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonnyboy808/personal-readme-generator/issues"
+  },
+  "homepage": "https://github.com/jonnyboy808/personal-readme-generator#readme",
+  "dependencies": {
+    "inquirer": "^9.1.5"
+  }
+}
