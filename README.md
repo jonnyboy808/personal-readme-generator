@@ -35,6 +35,7 @@ function generateMarkdown(data) {
 ```
 ## Walkthrough 
 Bellow is a walkthrough clip
+
 ![Gif walkthrough](./assets/walkthrough.gif)
 
 For full video follow this link:
