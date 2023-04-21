@@ -55,7 +55,7 @@ const questions = [
 function questionSet() {
     inquirer.prompt(questions).then((data) => {
         console.log(data)
-        fs.writeFile('GeneratedREADME/GeneratedREADME.md', generatedMarkdown(data),(err) => err? console.error(err): console.log("Sucess"))
+        fs.writeFile('GeneratedREADME/GeneratedREADME.md', generateMarkdown(data),(err) => err? console.error(err): console.log("Success"))
     })
 }
 
