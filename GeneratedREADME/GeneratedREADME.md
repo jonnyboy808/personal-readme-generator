@@ -1,4 +1,4 @@
-# Coffee Finder
+# The Coffee Finder
 
 ![https://img.shields.io/badge/license-Apache-blue](https://img.shields.io/badge/license-Apache-blue)
 
@@ -15,16 +15,16 @@
 
 
 ## Description
-This is an app to find coffee
+How to discover coffee near by
 
 ## Installation
 1-2-3
 
 ## Usage
-You can use this app to find the new spot
+An app to help discover new coffee spots
 
 ## Contributions
-Mike from 2nd floor
+Mike from floor 2
 
 ## Test
 This can be tested online
@@ -39,5 +39,3 @@ https://choosealicense.com/licenses/apache-2.0/
 Github: https://github.com/jonnyboy808
 
 Email: bob12@gmail.com
-
-

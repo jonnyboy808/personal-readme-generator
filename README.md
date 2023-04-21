@@ -34,9 +34,11 @@ function generateMarkdown(data) {
   }}
 ```
 ## Walkthrough 
+Bellow is a walkthrough clip
 ![Gif walkthrough](./assets/walkthrough.gif)
 
-[Walkthrough](https://drive.google.com/file/d/1g2esLjp7tbgopntT9NIdbHiqmn65aM99/view)
+For full video follow this link:
+[Walkthrough Video](https://drive.google.com/file/d/1Bi_oe75NCPYBysjQ6X2UgUrZvvfyFltW/view)
 
 ## Usage
 After cloning this repo to your local machine, open it with your preferred application or start directly from your command line. You will need to run the "node index.js" command to get started. Once initiated, the application will give a series of prompts with questions, answer and many questions that are needed, or N/A if not applicable. At the end of the prompts you will receive a message acknowledging that a new README has been generated.
