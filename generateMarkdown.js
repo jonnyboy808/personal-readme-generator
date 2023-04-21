@@ -1,24 +1,25 @@
 function generateMarkdown(data) {
   if (data.license === "MIT License") {
-    data.license = "[![License: MIT](https://img.shields.io/badge/license-MIT-green)";
+    data.license = "![https://img.shields.io/badge/license-MIT-green](https://img.shields.io/badge/license-MIT-green)";
   }
   if (data.license === "Apache") {
-    data.license = "[![License](https://img.shields.io/badge/license-Apache-blue)";
+    data.license = "![https://img.shields.io/badge/license-Apache-blue](https://img.shields.io/badge/license-Apache-blue)";
   }
 
 
 return `# ${data.title}
+## License
+${data.license}
 
 ## Table of Contents
 
-2. [Description](#Description)
-3. [Installation](#Installation)
-4. [Usage](#Usage)
-5. [Contributions](#Contributions)
-6. [Test](#Test)
-7. [Github](#Github)
-8. [Email](#Email)
-9. [License](#License)
+1. [Description](#description)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Contributions](#contributions)
+5. [Test](#test)
+6. [Question](#question)
+7. [License](#license)
 
 
 ## Description
@@ -36,13 +37,10 @@ ${data.contributing}
 ## Test
 ${data.test}
 
-## Github
+## Question
 ${data.github}
-
-## Email
 ${data.email}
 
-## License
 
 `;
 }
