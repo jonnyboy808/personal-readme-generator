@@ -1,4 +1,4 @@
-# The one
+# Coffee Finder
 
 ![https://img.shields.io/badge/license-Apache-blue](https://img.shields.io/badge/license-Apache-blue)
 
@@ -11,23 +11,23 @@
 * [Test](#test)
 * [License](#license)
 * [Questions](#questions)
-* [License](#license)
+
 
 
 ## Description
-To be the only one
+This is an app to find coffee
 
 ## Installation
 1-2-3
 
 ## Usage
-To become it
+You can use this app to find the new spot
 
 ## Contributions
-myself
+Mike from 2nd floor
 
 ## Test
-online
+This can be tested online
 
 ## License
 ![https://img.shields.io/badge/license-Apache-blue](https://img.shields.io/badge/license-Apache-blue)
@@ -38,6 +38,6 @@ https://choosealicense.com/licenses/apache-2.0/
 ## Questions
 Github: https://github.com/jonnyboy808
 
-Email: thebob@gmail.com
+Email: bob12@gmail.com
 
 

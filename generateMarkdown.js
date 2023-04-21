@@ -21,7 +21,6 @@ ${data.license}
 * [Contributions](#contributions)
 * [Test](#test)
 * [License](#license)
-* [License](#license)
 * [Questions](#questions)
 
 
